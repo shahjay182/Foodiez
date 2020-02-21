@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7428C0239A928500C1A01A /* CartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7428BF239A928500C1A01A /* CartController.swift */; };
+		2F886B582395A09300A7FC10 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F886B572395A09300A7FC10 /* MainNavigationController.swift */; };
+		2F886B5A2395A11C00A7FC10 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F886B592395A11C00A7FC10 /* LoginViewController.swift */; };
+		2F886B5C2395A25D00A7FC10 /* MainPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F886B5B2395A25D00A7FC10 /* MainPageController.swift */; };
+		2F886B5E2395C04F00A7FC10 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F886B5D2395C04F00A7FC10 /* MapViewController.swift */; };
+		615F8C3323959ED700785D5E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F8C3223959ED700785D5E /* SignUpViewController.swift */; };
+		61FF631523881E2600CFEAD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FF631423881E2600CFEAD3 /* AppDelegate.swift */; };
+		61FF631723881E2600CFEAD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FF631623881E2600CFEAD3 /* SceneDelegate.swift */; };
+		61FF631923881E2600CFEAD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FF631823881E2600CFEAD3 /* ViewController.swift */; };
+		61FF631C23881E2600CFEAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FF631A23881E2600CFEAD3 /* Main.storyboard */; };
+		61FF631F23881E2600CFEAD3 /* Foodiez.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61FF631D23881E2600CFEAD3 /* Foodiez.xcdatamodeld */; };
+		61FF632123881E2800CFEAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61FF632023881E2800CFEAD3 /* Assets.xcassets */; };
+		61FF632423881E2800CFEAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FF632223881E2800CFEAD3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F7428BF239A928500C1A01A /* CartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartController.swift; sourceTree = "<group>"; };
+		2F886B572395A09300A7FC10 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		2F886B592395A11C00A7FC10 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2F886B5B2395A25D00A7FC10 /* MainPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageController.swift; sourceTree = "<group>"; };
+		2F886B5D2395C04F00A7FC10 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		615F8C3223959ED700785D5E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		61FF631123881E2600CFEAD3 /* Foodiez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodiez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FF631423881E2600CFEAD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61FF631623881E2600CFEAD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61FF631823881E2600CFEAD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61FF631B23881E2600CFEAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61FF631E23881E2600CFEAD3 /* Foodiez.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodiez.xcdatamodel; sourceTree = "<group>"; };
+		61FF632023881E2800CFEAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61FF632323881E2800CFEAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61FF632523881E2800CFEAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61FF630E23881E2600CFEAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61FF630823881E2600CFEAD3 = {
+			isa = PBXGroup;
+			children = (
+				61FF631323881E2600CFEAD3 /* Foodiez */,
+				61FF631223881E2600CFEAD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61FF631223881E2600CFEAD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61FF631123881E2600CFEAD3 /* Foodiez.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61FF631323881E2600CFEAD3 /* Foodiez */ = {
+			isa = PBXGroup;
+			children = (
+				61FF631423881E2600CFEAD3 /* AppDelegate.swift */,
+				61FF631623881E2600CFEAD3 /* SceneDelegate.swift */,
+				61FF631823881E2600CFEAD3 /* ViewController.swift */,
+				61FF631A23881E2600CFEAD3 /* Main.storyboard */,
+				2F7428BF239A928500C1A01A /* CartController.swift */,
+				2F886B5D2395C04F00A7FC10 /* MapViewController.swift */,
+				2F886B592395A11C00A7FC10 /* LoginViewController.swift */,
+				2F886B5B2395A25D00A7FC10 /* MainPageController.swift */,
+				615F8C3223959ED700785D5E /* SignUpViewController.swift */,
+				2F886B572395A09300A7FC10 /* MainNavigationController.swift */,
+				61FF632023881E2800CFEAD3 /* Assets.xcassets */,
+				61FF632223881E2800CFEAD3 /* LaunchScreen.storyboard */,
+				61FF632523881E2800CFEAD3 /* Info.plist */,
+				61FF631D23881E2600CFEAD3 /* Foodiez.xcdatamodeld */,
+			);
+			path = Foodiez;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61FF631023881E2600CFEAD3 /* Foodiez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61FF632823881E2800CFEAD3 /* Build configuration list for PBXNativeTarget "Foodiez" */;
+			buildPhases = (
+				61FF630D23881E2600CFEAD3 /* Sources */,
+				61FF630E23881E2600CFEAD3 /* Frameworks */,
+				61FF630F23881E2600CFEAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foodiez;
+			productName = Foodiez;
+			productReference = 61FF631123881E2600CFEAD3 /* Foodiez.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61FF630923881E2600CFEAD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Jay Shah";
+				TargetAttributes = {
+					61FF631023881E2600CFEAD3 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 61FF630C23881E2600CFEAD3 /* Build configuration list for PBXProject "Foodiez" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61FF630823881E2600CFEAD3;
+			productRefGroup = 61FF631223881E2600CFEAD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61FF631023881E2600CFEAD3 /* Foodiez */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61FF630F23881E2600CFEAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FF632423881E2800CFEAD3 /* LaunchScreen.storyboard in Resources */,
+				61FF632123881E2800CFEAD3 /* Assets.xcassets in Resources */,
+				61FF631C23881E2600CFEAD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61FF630D23881E2600CFEAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F886B5A2395A11C00A7FC10 /* LoginViewController.swift in Sources */,
+				2F886B5C2395A25D00A7FC10 /* MainPageController.swift in Sources */,
+				2F886B582395A09300A7FC10 /* MainNavigationController.swift in Sources */,
+				61FF631F23881E2600CFEAD3 /* Foodiez.xcdatamodeld in Sources */,
+				2F886B5E2395C04F00A7FC10 /* MapViewController.swift in Sources */,
+				61FF631923881E2600CFEAD3 /* ViewController.swift in Sources */,
+				61FF631523881E2600CFEAD3 /* AppDelegate.swift in Sources */,
+				2F7428C0239A928500C1A01A /* CartController.swift in Sources */,
+				61FF631723881E2600CFEAD3 /* SceneDelegate.swift in Sources */,
+				615F8C3323959ED700785D5E /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61FF631A23881E2600CFEAD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61FF631B23881E2600CFEAD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61FF632223881E2800CFEAD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61FF632323881E2800CFEAD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61FF632623881E2800CFEAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61FF632723881E2800CFEAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61FF632923881E2800CFEAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Foodiez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jerry.Foodiez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61FF632A23881E2800CFEAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Foodiez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jerry.Foodiez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61FF630C23881E2600CFEAD3 /* Build configuration list for PBXProject "Foodiez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61FF632623881E2800CFEAD3 /* Debug */,
+				61FF632723881E2800CFEAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61FF632823881E2800CFEAD3 /* Build configuration list for PBXNativeTarget "Foodiez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61FF632923881E2800CFEAD3 /* Debug */,
+				61FF632A23881E2800CFEAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		61FF631D23881E2600CFEAD3 /* Foodiez.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61FF631E23881E2600CFEAD3 /* Foodiez.xcdatamodel */,
+			);
+			currentVersion = 61FF631E23881E2600CFEAD3 /* Foodiez.xcdatamodel */;
+			path = Foodiez.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 61FF630923881E2600CFEAD3 /* Project object */;
+}
